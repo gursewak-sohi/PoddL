@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="shortcut icon" href="images/favicon.svg" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <a href="javascript">
+            <img src="images/logo.svg" alt="logo" />
+        </a>
+    </header>
+
+    <!-- Form Section -->
+    <section>
+        <form class="form-block" action="">
+            <h1>Make a payment</h1>
+            <div class="form-unit">
+                <h5>Payment to:</h5>
+                <h4>John Doe</h4>
+            </div>
+            <div class="form-unit">
+                <h5>Receiver’s Email:</h5>
+                <h4>Johndoe@email.com</h4>
+            </div>
+            <div class="divider">
+                <hr>
+            </div>
+            <div class="field-unit">
+                <label>Your name</label>
+                <input type="text" value="John Doe" placeholder="Enter your name">
+            </div>
+            <div class="field-unit">
+                <label>Email</label>
+                <input type="text" placeholder="example@email.com">
+            </div>
+            <div class="field-unit has-icon">
+                <label>Email</label>
+                <input type="text" value="2,00,000">
+                <span class="icon">
+                    <img src="images/rupee.svg" alt="₹"/>
+                </span>
+            </div>
+            <div class="field-unit">
+                <label>Notes (Optional)</label>
+                <textarea cols="30" rows="10" placeholder="Write a note to be included in payment"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Pay</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
